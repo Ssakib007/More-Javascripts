@@ -1,12 +1,51 @@
-// the lowest required age for all rides access is 15 years old. although if the age is 13, they can enter only certain rides. If the age is below 13, they have to go to kids rides only.
+//  if (condition){
+//  execute code if hte condition above is true
+// }
+// else {
+// execute code if the condition is false
+// }
 
-var age = 14;
-if (age >= 15) {
-  console.log("you can go to any ride");
-} else if (age >= 13) {
-  console.log("you can go to certain rides only");
-} else {
-  console.log("you can go to kid's rides only");
+if (3 < 10) {
+  console.log("I have a smaller value");
 }
 
+// if the persons name is Jason, welcome him and if not, say that you don't know him.
 
+const id = "Jason";
+if (id == "Jason") {
+  console.log("hello jason welcome");
+} else {
+  console.log("sorry I don't know you");
+}
+
+const id2 = "Mark";
+if (id2 == "Jason") {
+  console.log("hello jason welcome");
+} else {
+  console.log("sorry I don't know you");
+}
+
+const id3 = "benton";
+if (id3 == "Jason") {
+  console.log("you are welcome Jason");
+} else {
+  console.log("sorry I don't know you");
+}
+
+//  if you buy food for me, I will come.
+//  If biriani price less that 300 taka, I will buy
+
+var birianiPrice = 500;
+if (birianiPrice < 300) {
+  console.log("mama give me a biriani");
+} else {
+  console.log("mama bashay jabo");
+}
+
+// if the weight is less than or equal to 20, I will carry it. if the weight is more, I will take a rickshaw.
+var weight = 40;
+if (weight <= 20) {
+  console.log("I will carry it by myself");
+} else {
+  console.log("I will take a rickshaw");
+}
