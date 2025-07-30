@@ -34,8 +34,9 @@ console.log(10 != "10");
 console.log(10 !== "10");
 // output true
 
-var name = "Jason"
-if name == "Jason"
-print("hello jason welcome")
-else:
-print("sorry I dont know you")
+var name = "Jason";
+if (name == "Jason") {
+  console.log("hello jason welcome");
+} else {
+  console.log("sorry I dont know you");
+}

@@ -1,4 +1,4 @@
-// the lowest required age for all rides access is 15 years old. although if the age is 13, they can enter only certain rides. If the age is below 13, they have to go to kids rides only.
+// the lowest required age for all rides access is 15 years old. although if the age is 13 or above, they can enter only certain rides. If the age is below 13, they have to go to kids rides only.
 
 var age = 14;
 if (age >= 15) {
@@ -8,5 +8,3 @@ if (age >= 15) {
 } else {
   console.log("you can go to kid's rides only");
 }
-
-
