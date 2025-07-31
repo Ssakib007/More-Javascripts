@@ -8,10 +8,10 @@ var subject = "EEE";
 
 // boolean
 
-var passed = ture;
+var passed = true;
 
 // naming convention
-// 1. single word dfad
+// 1. single word
 // 2. no quote
 //  no gap or dash
 //  can not start with number
