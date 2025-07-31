@@ -5,6 +5,13 @@ Free Drinks
     - Else Coke: 30tk
 */
 
+var Burger = 600;
+if (Burger > 500) {
+  console.log("free coke");
+} else {
+  console.log("coke: 30tk");
+}
+
 /*** TASK 2
 
 BMI Calculator and Health Category
@@ -18,6 +25,20 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
     - Otherwise, you are obese.
 
 */
+
+var height = 1.7;
+var weight = 66;
+var bmi = weight / (height * height);
+
+if (bmi >= 30) {
+  console.log("Obese");
+} else if (bmi >= 25) {
+  console.log("Overweight");
+} else if (bmi >= 18.5) {
+  console.log("normal");
+} else {
+  console.log("underweight");
+}
 
 /*** TASK 3
 
@@ -33,6 +54,20 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 ***/
 
+var score = 85;
+
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 80) {
+  console.log("B");
+} else if (score >= 70) {
+  console.log("C");
+} else if (score >= 60) {
+  console.log("D");
+} else {
+  console.log("F");
+}
+
 /*** TASK 4
 
 if you get more then 80 then inside your friend score. 
@@ -45,6 +80,24 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+
+var score = 82;
+var friendScore = 82;
+
+if (score > 80) {
+  console.log("go inside");
+  if (friendScore > 80) {
+    console.log("lets go for a lunch");
+  } else if (friendScore >= 60) {
+    console.log("good luck next time");
+  } else if (friendScore >= 40) {
+    console.log("message not seen");
+  } else if (friendScore < 40) {
+    console.log("block your friend");
+  }
+} else {
+  console.log("go to home, sleep, and act sad");
+}
 
 /***  TASK 5
 
@@ -59,6 +112,12 @@ also, write it using ternary operator.
 
  */
 
+var num1 = 77;
+var num2 = 66;
+var result;
+num1 > num2 ? (result = num1 * 2) : (result = num1 + num2);
+console.log(result);
+
 /*** TASK 6
 
 Ticket fare Calculator
@@ -67,3 +126,17 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
+
+var age = 11;
+var isStudent = false;
+var fare;
+if (age < 10) {
+  fare = 0;
+} else if (isStudent) {
+  fare = 800 * 0.5;
+} else if (age >= 60) {
+  fare = 800 * 0.85;
+} else {
+  fare = 800;
+}
+console.log("Ticket fare :" + fare + "tk");
