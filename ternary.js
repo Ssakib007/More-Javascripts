@@ -5,9 +5,9 @@ condition -- question mark ? do something when true -- colon : do something when
 
 */
 
-const age = 20;
+const age = 20;   
 
-// // normal if-else
+// // normal if-else   
 if (age >= 18) {
   console.log("you can vote");
 } else {
